@@ -1,0 +1,19 @@
+-- Root module for Developmental Biology Plant Development Canonical Lane Lean
+
+import canonicalLaneMathlib.AdmissibleClass
+
+namespace HautevilleHouse
+namespace DevelopmentalBiologyPlantDevelopmentCanonicalLaneLean
+
+-- Re-export core definitions
+
+export AdmissibleClass (AdmissibleClass, admittedClosure)
+export BridgeLemmas (bridgeClosed, bridge_from_admissible_class)
+export GateLemmas (gateClosed, gate_from_admissible_class)
+export FinalTheorem (ConstrainedDevelopmentalPlantClosure, constrained_developmental_plant_endgame)
+export MathlibObjects (PlantDevelopmentSpace, PlantDevelopmentAdmittedObject, PlantDevelopmentEndgameState, PlantDevelopmentWitnessClosed)
+export PlantDevelopmentDomain (PlantDevelopmentPackage, PlantDevelopmentEvidence, PlantDevelopmentClosed, plant_development_closed_from_evidence)
+export Projection (plantDevelopmentProjection, plant_development_projection_idempotent)
+
+end DevelopmentalBiologyPlantDevelopmentCanonicalLaneLean
+end HautevilleHouse
